@@ -1,5 +1,6 @@
 # GRASS Talks
 
+* IALE-North America 2025 Raleigh: [Curation, Dissemination, and Reusability of Research Code in GRASS](https://wenzeslaus.github.io/grass-gis-talks/iale-na2025.html)
 * NC GIS 2025 Winston-Salem: [Into the Weeds of GRASS](https://wenzeslaus.github.io/grass-gis-talks/ncgis2025.html)
 * FOSS4G NA 2024 St. Louis: [State of GRASS GIS](https://wenzeslaus.github.io/grass-gis-talks/foss4gna2024.html)
 * FOSS4G NA 2023 Baltimore: [GRASS GIS: Not What You Think](https://wenzeslaus.github.io/grass-gis-talks/foss4gna2023.html)
