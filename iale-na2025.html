@@ -196,8 +196,8 @@ and as consumers of the published tools.
     <ul>
         <li>supplemental file to a paper</li>
         <li>Zenodo upload</li>
-        <li>source code repository on GitHub</li>
         <li>...</li>
+        <li>source code repository on GitHub</li>
     </ul>
     <img src="img/additional_file.png" class="stretch">
 </section>
@@ -207,11 +207,14 @@ and as consumers of the published tools.
     <h2>Okay, I uploaded my code to GitHub.</h2>
     <ul>
         <li>Is it clear how to use it?</li>
-        <li>How can I use it together with this other code?</li>
         <li>What happens when my funding ends?</li>
-        <li>Does it work with the new Python version?</li>
+        <li>Does it work with the new software versions?</li>
         <li>What if I don't want to touch it anymore?</li>
         <li>What if I need to use it again?</li>
+        <li>How someone else will know about it?</li>
+        <li>Can someone use it in a different way?</li>
+        <li>How can I combine it with some other code?</li>
+        <li>How can I use it with different data?</li>
     </ul>
 </section>
 
@@ -230,8 +233,8 @@ and as consumers of the published tools.
 <section>
     <h2>GRASS Tool</h2>
     <ul>
-        <li>Specific functionality
         <li>Aka: Function, module, command, utility
+        <li>Specific set of functionality
         <li>Code and documentation</li>
         <li>Python, C, or C++</li>
     </ul>
@@ -241,10 +244,22 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Addon Tools: Wind-water Interactions</h2>
+    <h2>Tool Example: Wind-water Interactions</h2>
     <p><em>r.windfetch</em> &ndash; distance which winds blow without obstruction</p>
+    <p>In GRASS Addons repository</p>
     <img src="img/r_windfetch.png" class="stretch">
     <p><small>by Anna Petrasova, funded by NSF Award #2322073, granted to Natrx, Inc.</small>
+</section>
+
+
+<section>
+    <h2>Documentation: Standardized Interface</h2>
+    <ul>
+        <li>Standardized definition, overview, and example.
+        <li>Specific, detailed description and examples.
+    </ul>
+    <br>
+    <img src="img/r_watershed_python_doc.png" class="stretch">
 </section>
 
 
@@ -273,12 +288,15 @@ and as consumers of the published tools.
 
 <section>
     <ul>
-        <li>Is it clear how to use it?</li>
-        <li>How can I use it together with this other code?</li>
+        <li>Is it clear how to use it? ✓</li>
         <li>What happens when my funding ends?</li>
-        <li>Does it work with the new Python version?</li>
+        <li>Does it work with the new software versions?</li>
         <li>What if I don't want to touch it anymore?</li>
         <li>What if I need to use it again?</li>
+        <li>How someone else will know about it?</li>
+        <li>Can someone use it in a different way?</li>
+        <li>How can I combine it with some other code?</li>
+        <li>How can I use it with different data?</li>
     </ul>
 </section>
 
@@ -291,10 +309,8 @@ and as consumers of the published tools.
 <section>
     <h2>Initial Publishing</h2>
     <ul>
-        <li>Researchers, code authors develop and contribute new tools and
-            algorithms to the GRASS GIS repository.
-        <li>Reviewes and mentors guide new contributors, sharing knowledge and
-            fostering best practices.
+        <li>Researchers, code authors develop and publish new tools and algorithms.
+        <li>Reviewes and mentors review the code, guide new contributors, foster best practices.
     </ul>
     <br>
     <img src="img/community_prague_2024_three_working.jpg" class="stretch">
@@ -302,16 +318,25 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Long Term Curation</h2>
+    <h2>Commercial Support</h2>
+    <img src="img/commercial_support_2025.png" class="stretch">
+</section>
+
+
+<section>
+    <h2>Long-Term Curation</h2>
     <ul>
-        <li>Technical maintainers address issues like deprecated libraries
-            and API changes to keep tools functional and the ecosystem
-            up-to-date.
-        <li>Governance leaders set the vision, foster collaboration, and
-            ensure the sustainability of the GRASS project.
-        <li>Community organizers host events like meetups and sprints,
-            strengthening collaboration and knowledge sharing within
-            the GRASS community.
+        <li>
+            Technical maintainers address issues like deprecated libraries
+            and API changes to keep tools functional.
+        </li>
+        <li>
+            Community organizers host events like meetups and sprints.
+        </li>
+        <li>
+            Governance leaders foster collaboration and
+            ensure the sustainability of the project.
+        </li>
     </ul>
     <br>
     <img src="img/community_prague_2023_room.jpg" class="stretch">
@@ -319,7 +344,19 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Tools: Skyview</h2>
+    <h2>Project Steering Committee</h2>
+    <ul>
+        <li>Elections: October 2024, Positions Filled: 4</li>
+        <li>Total Members: 9, Term Length: 6 years</li>
+        <li>OSGeo Foundation committee</li>
+    </ul>
+    <br>
+    <img src="img/psc_members_2025.png" class="stretch">
+</section>
+
+
+<section>
+    <h2>Tools: Skyview - Algorithm</h2>
     <em>r.skyview</em> &ndash; non-directional alternative to shaded relief
     <img src="img/skyview.png" class="stretch">
     <p>by Anna Petrasova
@@ -327,7 +364,7 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Tools: SLIC</h2>
+    <h2>Tools: SLIC - Algorithm</h2>
     <p><em>i.superpixels.slic</em> - image segmentation using SLIC superpixels</p>
     <img src="img/i_superpixels_slic_ndvi.png" class="stretch">
     <p>by Rashad Kanavath and Markus Metz
@@ -335,7 +372,7 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Tools: Digest Data with EODAG</h2>
+    <h2>Tools: EODAG Digestion - Data Handling</h2>
     <p>download, import, preprocessing, cloud detection, and masking of remote sensing data with EODAG (Earth Observation Data Access Gateway)</p>
     <img src="img/i_sentinel_mask_ES.png" class="stretch">
     <p>by Hamed A. Elgizery, Veronica Andreo, Stefan Blumentrath
@@ -343,7 +380,7 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Tools: Temporal Algebra</h2>
+    <h2>Tools: Temporal Algebra - General Algoritm</h2>
     <p>
         <code>D = if(start_date(A) &lt; "2005-01-01", A + B)</code>
         <br>
@@ -355,7 +392,7 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Tools: Fast Hydrology Algorithms</h2>
+    <h2>Tools: Fast Flow Accumulation - Field-specific Algorithm</h2>
     <em>r.accumulate</em> &ndash; fast weighted flow accumulation, watersheds, stream networks, and longest flow paths using a flow direction
     <br>
     <img src="img/r_accumulate_nc_lfp_example_multiple.png" class="stretch">
@@ -364,7 +401,7 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Tools: Vector Topology Cleaning</h2>
+    <h2>Tools: Vector Topology Cleaning - Build Over Time</h2>
     <p><em>v.clean</em> &ndash; automated topology with outputs for additional checks</p>
     <img src="img/topology_cleaning.png" class="stretch">
     <p>by Markus Metz, Radim Blazek, and others
@@ -372,7 +409,7 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Tools: Machine Learning</h2>
+    <h2>Tools: Machine Learning - Addition of Algoritm</h2>
 
     <p>Supervised classification with Support Vector Machines
 
@@ -389,19 +426,7 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Tools: Topology Handling</h2>
-
-    <p><a href="https://grass.osgeo.org/grass84/manuals/v.fill.holes.html">v.fill.holes</a>:
-        Fill holes in areas by keeping only outer boundaries</p>
-
-    <img src="img/v_fill_holes.png" class="stretch">
-
-    <small>by Vaclav Petras</small>
-</section>
-
-
-<section>
-    <h2>Tools: Better Horizon Identification</h2>
+    <h2>Tools: Better Horizon Identification - Improvemnt of Tool</h2>
 
     <p><a href="https://grass.osgeo.org/grass84/manuals/r.horizon.html">r.horizon</a>:
     Output for multiple points, distances, and many other improvements</p>
@@ -413,11 +438,26 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Tools: Urban Modeling</h2>
+    <h2>Tools: Urban Modeling - Model</h2>
     <p><em>r.futures</em> - set of tools for urban growth modeling</p>
     <img src="img/FUTURES_Raleigh.png" class="stretch">
     <p>by Meentemeyer et al.</p>
     <!--Sanchez, Petrasova-->
+</section>
+
+
+<section>
+    <ul>
+        <li>Is it clear how to use it? ✓</li>
+        <li>What happens when my funding ends? ✓</li>
+        <li>Does it work with the new software versions? ✓</li>
+        <li>What if I don't want to touch it anymore? ✓</li>
+        <li>What if I need to use it again? ✓</li>
+        <li>How someone else will know about it?</li>
+        <li>Can someone use it in a different way?</li>
+        <li>How can I combine it with some other code?</li>
+        <li>How can I use it with different data?</li>
+    </ul>
 </section>
 
 
@@ -428,7 +468,9 @@ and as consumers of the published tools.
 
 <section>
     <h2>Python</h2>
-    Python API comes with GRASS.
+    <ul>
+        <li>Python API comes with GRASS</li>
+    </ul>
     <br>
     <img src="img/jupyter_interactive_viewshed.png" class="stretch">
 </section>
@@ -455,6 +497,16 @@ and as consumers of the published tools.
 
 
 <section>
+    <h2>actinia</h2>
+    <ul>
+        <li>REST API and advanced processing system for cloud</li>
+    </ul>
+    <br>
+    <img src="img/actinia_logo.svg" class="stretch">
+</section>
+
+
+<section>
     <h2>R</h2>
     <ul>
         <li>rgrass package to use GRASS from R is on CRAN</li>
@@ -475,12 +527,10 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>actinia</h2>
-    <ul>
-        <li>REST API and advanced processing system for cloud</li>
-    </ul>
-    <br>
-    <img src="img/actinia_logo.svg" class="stretch">
+    <h2>New Documentation</h2>
+    <p>Available online for the preview version</p>
+    <img src="img/documentation.png" class="stretch">
+    <p>lead by the NC State Center for Geospatial Analytics</p>
 </section>
 
 
@@ -488,14 +538,6 @@ and as consumers of the published tools.
     <h2>New Tutorials Site</h2>
     <p>Just launched: <a href="https://grass-tutorials.osgeo.org">grass-tutorials.osgeo.org</a></p>
     <img src="img/grass-tutorials.png" class="stretch">
-    <p>lead by the NC State Center for Geospatial Analytics</p>
-</section>
-
-
-<section>
-    <h2>New Documentation</h2>
-    <p></p>
-    <img src="img/documentation.png" class="stretch">
     <p>lead by the NC State Center for Geospatial Analytics</p>
 </section>
 
@@ -511,27 +553,53 @@ and as consumers of the published tools.
                 <li>To support community building</li>
             </ul>
         </li>
-        <li>The NSF program is not funding new features, bug fixes, or ongoing maintenance</li>
+        <li>The NSF program is not funding new tools, bug fixes, or ongoing maintenance</li>
     </ul>
     <img src="img/nsf_grant_announcement.png" class="stretch">
 </section>
 
 
 <section>
-    <h2>Project Steering Committee Elections</h2>
+    <h2>Open-Source Licensing</h2>
+
     <ul>
-        <li>Elections: October 2024, Positions Filled: 4</li>
-        <li>Total Members: 9, Term Length: 6 years</li>
-        <li>OSGeo Foundation committee</li>
+        <li>
+            Organizations:
+            <ul>
+                <li>Clear technology transfer path for research code.</li>
+                <li>Provider-independent, contractor-independent.</li>
+                <li>Financial investments go to a public pool.</li>
+                <li>Pay for support and features, not usage.</li>
+                <li>No per-CPU license fees.</li>
+            </ul>
+        </li>
+        <li>
+            Individuals:
+            <ul>
+                <li>Author retains right to use.</li>
+                <li>Employer-independent.</li>
+                <li>Work computer, personal laptop, or cloud.</li>
+            </ul>
+        </li>
     </ul>
     <br>
-    <img src="img/psc_members_2025.png" class="stretch">
+    <img src="img/grass-green.svg" class="stretch">
+
 </section>
 
 
 <section>
-    <h2>Commercial Support</h2>
-    <img src="img/commercial_support_2025.png" class="stretch">
+    <ul>
+        <li>Is it clear how to use it? ✓</li>
+        <li>What happens when my funding ends? ✓</li>
+        <li>Does it work with the new software versions? ✓</li>
+        <li>What if I don't want to touch it anymore? ✓</li>
+        <li>What if I need to use it again? ✓</li>
+        <li>How someone else will know about it? ✓</li>
+        <li>Can someone use it in a different way? ✓</li>
+        <li>How can I combine it with some other code?</li>
+        <li>How can I use it with different data?</li>
+    </ul>
 </section>
 
 
@@ -541,8 +609,8 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Tool Naming</h2>
-    <p>Functionality is divided into tools <small>(over 500)</small></p>
+    <h2>Categories of Tools</h2>
+    <p>Name convention and associated parameter conventions</p>
     <table style="font-size: smaller;"><tbody>
         <tr>
             <th>Prefix</th>
@@ -594,9 +662,9 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Interfaces: JSON for Text Outputs</h2>
+    <h2>Unified Interfaces</h2>
 
-    JSON output format support <code>(format="json")</code> in multiple tools (v.db.select, t.rast.list, &hellip;)
+    Latest example: JSON output format support <code>(format="json")</code> in multiple tools (v.db.select, t.rast.list, &hellip;)
 
     <pre class="bash"><code>
         v.db.select roadsmajor format=json
@@ -623,21 +691,35 @@ and as consumers of the published tools.
 
 
 <section>
+    <h2>Transitions Between Interfaces</h2>
+    <div class="left">
+        <img src="img/r_in_lidar_dialog.png" style="width: 100%;">
+    </div>
+    <div class="right">
+        <small>Command line (Bash):</small>
+        <br>
+        <img src="img/r_in_lidar_command_in_bash.png" style="width: 100%;">
+        <small>Python:</small>
+        <br>
+        <img src="img/r_in_lidar_command_in_python.png" style="width: 100%;">
+    </div>
+</section>
+
+
+<section>
     <h2>Projects</h2>
 
     <ul>
         <li>
-            Projects keep the data consistent.
-            <ul>
-                <li>Same format for all data.</li>
-                <li>Same CRS for all data.</li>
-                <li>Separates data preprocessing from analysis.</li>
-            </ul>
+            Projects separate concerns of data preparation and data analysis.
         </li>
         <li>
-            Mapsets keep the data organized.
+            Projects keep the data consistent.
             <ul>
-                <li>One default mapset or multiple mapsets.</li>
+                <li>Same format and CRS for all data.</li>
+                <li>
+                    Mapsets keep the data organized within a project.
+                </li>
                 <li>Work is happening in one mapset, but data from any mapset can be used.</li>
             </ul>
         </li>
@@ -659,62 +741,28 @@ and as consumers of the published tools.
 
 
 <section>
-    <h2>Python API: Simpler Creation of Projects</h2>
-
-    <p><code>grass.script</code> Python package: </p>
-
-    <p>Greatly simplified the creation of new projects in 
-    Python without a running session (no more chicken and egg problems)</p>
-
-    <pre><code data-trim data-noescape>
-        import grass.script as gs
-
-        gs.create_project("cordoba_utm21s", epsg="32721")
-        gs.setup.init("cordoba_utm21s")
-    </code></pre>
-
-    <aside class="notes">
-        It is also possible to create a project in a temporary folder
-    </aside>
-
-    <small>by Vaclav Petras, funded by NSF Award #2322073, granted to Natrx, Inc.</small>
-</section>
-
-
-<section>
-    <h2>Duality between GUI and commands</h2>
-    <div class="left">
-        <img src="img/r_in_lidar_dialog.png" style="width: 100%;">
-    </div>
-    <div class="right">
-        <small>Command line (Bash):</small>
-        <br>
-        <img src="img/r_in_lidar_command_in_bash.png" style="width: 100%;">
-        <small>Python:</small>
-        <br>
-        <img src="img/r_in_lidar_command_in_python.png" style="width: 100%;">
-    </div>
-    <p><small>
-    Examples in the documentation and class instructions are usually
-    provided as commands which can be used to fill in the GUI, write Python
-    code, or run them directly.
-    </small></p>
-</section>
-
-
-<section>
-    <h2>Carrier Investment</h2>
+    <h2>Computational Region</h2>
     <ul>
-        <li>Invest your time into technologies which stay and don't disapear in couple years.</li>
+        <li>extent and resolution for raster computations
+    </ul>
+    <br>
+    <img src="img/grass_computational_region.png" class="stretch">
+</section>
+
+
+<section>
+    <h2>Carrier-long Reusability</h2>
+    <ul>
+        <li>Technologies which stay and don't disapear in couple years.</li>
         <li>Bash scripting, Python, GRASS</li>
         <li>Longetivity, open-source, platfrom-idependent</li>
         <li>Things develop, versions update, features are added...</li>
         <li>...but general ideas stay the same.</li>
     </ul>
 
-    <p><em>Code from 2002 running in 2019?</em></p>
+    <p><em>Code from 2002 running in 2025?</em></p>
     <!-- 5 pre-release -->
-    version 5.0 code works as is in 7.6:
+    version 5.0 code works as is in 8.4:
 <pre style="font-size: 94%;">r.mapcalc depr.bin="if((elev - fill)&lt; 0., 1, 0)"
 </pre>
 <p>
@@ -730,29 +778,17 @@ although there is a better way to write it:
 
 
 <section>
-    <h2>Open-Source Licensing</h2>
-
     <ul>
-        <li>
-            Organizations:
-            <ul>
-                <li>Provider-independent, contractor-independent.</li>
-                <li>Financial investments go to a public pool.</li>
-                <li>Pay for support and features, not usage.</li>
-                <li>No per-CPU license fees.</li>
-            </ul>
-        </li>
-        <li>
-            Individuals:
-            <ul>
-                <li>Work computer or personal laptop.</li>
-                <li>Employer-independent.</li>
-            </ul>
-        </li>
+        <li>Is it clear how to use it? ✓</li>
+        <li>What happens when my funding ends? ✓</li>
+        <li>Does it work with the new software versions? ✓</li>
+        <li>What if I don't want to touch it anymore? ✓</li>
+        <li>What if I need to use it again? ✓</li>
+        <li>How someone else will know about it? ✓</li>
+        <li>Can someone use it in a different way? ✓</li>
+        <li>How can I combine it with some other code? ✓</li>
+        <li>How can I use it with different data? ✓</li>
     </ul>
-    <br>
-    <img src="img/grass-green.svg" class="stretch">
-
 </section>
 
 
@@ -788,12 +824,12 @@ although there is a better way to write it:
 <section>
     <h2>GRASS Lightning Talks</h2>
     <ul>
-        <li>Thursday, May 22 at NC State</li>
+        <li>Thursday, May 22 at NC State, 4pm</li>
+        <li>User-focused session</li>
         <li>Speakers from mundialis, Natrx, Bohannan Huston, government, and academia</li>
-        <li>User-focused</li>
-        <li>RSVP: <a href=""></a></li>
+        <li>RSVP: <a href="https://tinyurl.com/grass-2025">tinyurl.com/grass-2025</a></li>
     </ul>
-    <img src="img/NCSU_developer_summit_venue_2025_collage.jpg" class="stretch">
+    <img src="img/foss4g_2024_brazil_keynote.jpg" class="stretch">
     <p><small>lead by the NC State Center for Geospatial Analytics</small></p>
 </section>
 
@@ -802,13 +838,16 @@ although there is a better way to write it:
     <h2>Community</h2>
     Thanks to all those involved!
     <br>
-    <img src="img/community_prague_2024_group.jpg" class="stretch">
+    <img src="img/community_prague_2024_group_no_highlight.jpg" class="stretch">
     <img src="img/github_contributors_2024-09-03.png" style="width: 80%">
 </section>
 
 
 <section>
     <img src="img/grass-green.svg" alt="GRASS logo" class="stretch">
+    <p style="font-size: larger;">
+        Summit and Lightning Talks: <a href="https://tinyurl.com/grass-2025">tinyurl.com/grass-2025</a>
+    </p>
     <p>
             <small>
                 vpetras&#64;ncsu&#46;edu,
